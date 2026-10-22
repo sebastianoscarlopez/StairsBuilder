@@ -1,0 +1,29 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Spline Stairs Builder",
+	"Description": "Procedural spline-driven stairs and railings toolkit for Unreal Engine 5. Geometry Script built meshes with IK-friendly collision, bake tool and presets.",
+	"Category": "Editor Tools",
+	"CreatedBy": "sebastianoscarlopez",
+	"CanContainContent": true,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "StairsBuilder",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "StairsBuilderEditor",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "GeometryScripting",
+			"Enabled": true
+		}
+	]
+}
