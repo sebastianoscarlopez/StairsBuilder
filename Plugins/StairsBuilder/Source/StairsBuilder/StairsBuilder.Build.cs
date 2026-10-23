@@ -8,6 +8,6 @@ public class StairsBuilder : ModuleRules
 		IWYUSupport = IWYUSupport.Full;
 
 		PublicDependencyModuleNames.AddRange(new string[] { "Core", "Engine" });
-		PrivateDependencyModuleNames.AddRange(new string[] { "CoreUObject" });
+		PrivateDependencyModuleNames.AddRange(new string[] { "CoreUObject", "GeometryFramework", "GeometryScriptingCore" });
 	}
 }
